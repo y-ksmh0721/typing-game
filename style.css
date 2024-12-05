@@ -1,0 +1,27 @@
+/* ゲーム全体 */
+body{
+  font-size: 6em;
+  text-align: center;
+}
+/* ゲームの残り秒数がカウントされる領域 */
+.count{
+  margin:0;
+  font-weight: bold;
+  color: #888;
+}
+/* テキストが表示される領域 */
+.wrap{
+  margin-top: 20px;
+  padding: 80px 40px;
+  background:#666;
+  font-weight: bold;
+  color: #fff;
+}
+/* 正しくタイプされた場合 */
+.typed{
+  color: lightgreen;
+}
+/* タイプミスの場合 */
+.mistyped{
+  background:red;
+}
